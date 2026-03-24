@@ -1,0 +1,62 @@
+.navbar {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 100;
+  box-shadow: var(--shadow);
+}
+
+.navbar-inner {
+  display: flex; align-items: center; gap: 24px;
+  height: 64px;
+}
+
+.navbar-brand {
+  font-size: 20px; font-weight: 700; color: var(--primary);
+  white-space: nowrap;
+}
+
+.navbar-links {
+  display: flex; align-items: center; gap: 20px; flex: 1;
+}
+
+.navbar-links a {
+  font-size: 14px; font-weight: 500; color: var(--text-muted);
+  transition: color 0.2s; padding: 4px 0;
+}
+.navbar-links a:hover, .navbar-links a.active { color: var(--primary); }
+
+.cart-link { position: relative; display: inline-flex; align-items: center; gap: 4px; }
+.cart-badge {
+  background: var(--primary); color: white;
+  font-size: 11px; font-weight: 700;
+  min-width: 18px; height: 18px; border-radius: 9px;
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0 4px;
+}
+
+.navbar-auth {
+  display: flex; align-items: center; gap: 10px; margin-left: auto;
+}
+
+.navbar-user {
+  font-size: 14px; font-weight: 500; color: var(--text);
+}
+
+.dropdown { position: relative; }
+.dropdown-trigger {
+  font-size: 14px; font-weight: 500; color: var(--text-muted);
+  cursor: pointer; padding: 4px 0;
+}
+.dropdown-trigger:hover { color: var(--primary); }
+.dropdown-menu {
+  display: none; position: absolute; top: 100%; left: 0;
+  background: white; border: 1px solid var(--border);
+  border-radius: 8px; box-shadow: var(--shadow-md);
+  min-width: 150px; padding: 6px 0; z-index: 200;
+}
+.dropdown:hover .dropdown-menu { display: block; }
+.dropdown-menu a {
+  display: block; padding: 8px 16px; font-size: 14px;
+  color: var(--text) !important;
+}
+.dropdown-menu a:hover { background: var(--secondary); color: var(--primary) !important; }
