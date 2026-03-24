@@ -154,27 +154,23 @@ npm run dev
 
 ## � Screenshots
 
-### 🏠 Home & Products
-![Home Page](Screenshot/screenshot_1.png)
-![Products Page](Screenshot/screenshot_2.png)
-![Product Detail](Screenshot/screenshot_3.png)
+### 🔐 Secure Authentication
+![Login Page](Screenshot/Auth_Login.png)
+![Register Page](Screenshot/Auth_Register.png)
 
-### 🔐 Authentication
-![Register Page](Screenshot/screenshot_4.png)
-![OTP Verification](Screenshot/screenshot_5.png)
-![Login Page](Screenshot/screenshot_6.png)
+### 🛍️ Shopping Experience
+![Home Page](Screenshot/Shop_Home.png)
+![Cart & Checkout](Screenshot/Shop_Cart.png)
+![Address Details](Screenshot/Shop_Address_Form.png)
+![Payment Gateway](Screenshot/Shop_Payment_Modal.png)
+![Order Success](Screenshot/Shop_Order_Success.png)
+![Order Tracking](Screenshot/Shop_Order_Tracking.png)
 
-### 🛒 Cart & Checkout
-![Cart Page](Screenshot/screenshot_7.png)
-![Checkout Flow](Screenshot/screenshot_8.png)
-
-### 📦 Orders
-![Orders Page](Screenshot/screenshot_9.png)
-![Order Tracking](Screenshot/screenshot_10.png)
-
-### 🛠️ Admin Dashboard
-![Admin Dashboard with Charts](Screenshot/screenshot_11.png)
-![Admin Products Management](Screenshot/screenshot_12.png)
+### 🛡️ Management Portal
+![Admin Products](Screenshot/Admin_Products.png)
+![Admin Orders](Screenshot/Admin_Orders.png)
+![Admin Dashboard](Screenshot/Admin_Dashboard.png)
+![Admin Analytics](Screenshot/Admin_Analytics.png)
 
 ---
 
